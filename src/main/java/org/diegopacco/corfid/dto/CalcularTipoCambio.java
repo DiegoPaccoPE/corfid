@@ -1,11 +1,10 @@
 package org.diegopacco.corfid.dto;
 
-import lombok.Builder;
 import lombok.Getter;
 
 @Getter
-@Builder
-public class BusquedaTipoCambio {
+public class CalcularTipoCambio {
     private String monedaOrigen;
     private String monedaDestino;
+    private double monedaOrigenValor;
 }
